@@ -25,7 +25,9 @@
 
 | Mapa de incidencias | Dashboard analítico |
 |---|---|
-| ![Mapa](https://github.com/matnoren/spybee-test/assets/mapa-preview.png) | ![Dashboard](https://github.com/matnoren/spybee-test/assets/dashboard-preview.png) |
+| ![Mapa](<img width="1346" height="718" alt="mapa-preview" src="https://github.com/user-attachments/assets/5a1f5e3e-9664-4091-938a-33c4ff2d40db" />
+) | ![Dashboard](<img width="1346" height="718" alt="dashboard-preview" src="https://github.com/user-attachments/assets/39224c68-ec25-4078-8a0e-a6fdfa31a2db" />
+) |
 
 > **Tip:** Para agregar capturas reales, toma un screenshot del mapa y del dashboard, súbelos arrastrándolos directamente al README en GitHub y reemplaza las rutas de imagen de arriba.
 
