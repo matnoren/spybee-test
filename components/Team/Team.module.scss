@@ -1,0 +1,137 @@
+@import '@/styles/variables';
+
+.page {
+  padding: 32px;
+  max-width: 1100px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+
+  h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: $text-primary;
+    margin: 0;
+  }
+
+  p {
+    font-size: 13px;
+    color: $accent;
+    margin: 4px 0 0;
+  }
+}
+
+.badge {
+  font-size: 12px;
+  font-weight: 600;
+  color: $text-muted;
+  background: $bg-hover;
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: 1px solid $border;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: $bg-surface;
+  border: 1px solid $border;
+  border-radius: $radius-md;
+  padding: 20px;
+  transition: border-color $transition;
+
+  &:hover {
+    border-color: $accent;
+  }
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: $accent;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.info {
+  flex: 1;
+  min-width: 0;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: 600;
+  color: $text-primary;
+}
+
+.role {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  color: $accent;
+  margin-top: 2px;
+}
+
+.email {
+  font-size: 11px;
+  color: $text-muted;
+  margin-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.divider {
+  height: 1px;
+  background: $border;
+  margin: 14px 0;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: $text-secondary;
+}
+
+.iconOpen { color: #ff5c5c; }
+.iconProgress { color: #f5a623; }
+.iconClosed { color: #4caf7d; }
+
+.highAlert {
+  margin-top: 12px;
+  font-size: 11px;
+  color: #ff5c5c;
+  background: rgba(255, 92, 92, 0.08);
+  border: 1px solid rgba(255, 92, 92, 0.2);
+  border-radius: $radius-sm;
+  padding: 6px 10px;
+}

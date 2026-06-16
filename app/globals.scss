@@ -1,0 +1,89 @@
+@import './styles/variables';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: $bg-base;
+  color: $text-primary;
+  font-family: $font-sans;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: $border-strong;
+  border-radius: 99px;
+}
+
+/* Mapbox overrides */
+.mapboxgl-map {
+  font-family: $font-sans !important;
+}
+.mapboxgl-ctrl-logo {
+  display: none !important;
+}
+.mapboxgl-ctrl-attrib {
+  font-size: 10px !important;
+  opacity: 0.5;
+}
+.mapboxgl-popup-content {
+  background: $bg-elevated !important;
+  border: 1px solid $border-strong !important;
+  border-radius: $radius-lg !important;
+  padding: 0 !important;
+  box-shadow: $shadow-lg !important;
+  color: $text-primary !important;
+}
+.mapboxgl-popup-tip {
+  border-top-color: $border-strong !important;
+  border-bottom-color: $border-strong !important;
+}
+.mapboxgl-popup-close-button {
+  color: $text-secondary !important;
+  font-size: 18px !important;
+  padding: 8px !important;
+  right: 4px !important;
+  top: 4px !important;
+}
+.mapboxgl-popup-close-button:hover {
+  background: $bg-hover !important;
+  border-radius: $radius-sm !important;
+}
