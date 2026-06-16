@@ -25,10 +25,7 @@
 
 | Mapa de incidencias | Dashboard analítico |
 |---|---|
-| ![Mapa](<img width="1346" height="718" alt="mapa-preview" src="https://github.com/user-attachments/assets/5a1f5e3e-9664-4091-938a-33c4ff2d40db" />
-) | ![Dashboard](<img width="1346" height="718" alt="dashboard-preview" src="https://github.com/user-attachments/assets/39224c68-ec25-4078-8a0e-a6fdfa31a2db" />
-) |
-
+| ![Mapa](https://github.com/user-attachments/assets/5a1f5e3e-9664-4091-938a-33c4ff2d40db) | ![Dashboard](https://github.com/user-attachments/assets/39224c68-ec25-4078-8a0e-a6fdfa31a2db) |
 
 ---
 
